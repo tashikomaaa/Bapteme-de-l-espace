@@ -1,6 +1,3 @@
-//Problem: user interaction doesn't provide desired results
-//Solution: add interactivity so the user can manage daily tasks.
-
 var taskInput = document.getElementById("new-task"); // new-task
 var addButton = document.getElementsByTagName("button")[0]; //first button
 var incompleteTasksHolder = document.getElementById("incomplete-tasks"); //incomplete-tasks
@@ -29,8 +26,8 @@ var createNewTaskElement = function (taskString) {
 
   editButton.innerText = "Edit";
   editButton.className = "edit";
-  deleteButton.innerText = "Delete";
-  deleteButton.className = "delete";
+  deleteButton.innerText = "Suprimer";
+  deleteButton.className = "suprimer";
 
   label.innerText = taskString;
 
@@ -46,7 +43,7 @@ var createNewTaskElement = function (taskString) {
 
 //Add a new task
 var addTask = function () {
-  console.log("Add Task...");
+  console.log("Ajouter une tache...");
   //Create a new list item with the text from the #new-task:
   var listItem = createNewTaskElement(taskInput.value);
   //Append listItem to incompleteTaskHolder
@@ -57,7 +54,7 @@ var addTask = function () {
 
 //Edit an existing task
 var editTask = function () {
-  console.log("Edit Task...");
+  console.log("Editer une tache...");
 
   var listItem = this.parentNode;
 
@@ -117,7 +114,7 @@ var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   // select listitems chidlren
   var checkBox = taskListItem.querySelector('input[type="checkbox"]');
   var editButton = taskListItem.querySelector("button.edit");
-  var deleteButton = taskListItem.querySelector("button.delete");
+  var deleteButton = taskListItem.querySelector("button.suprimer");
   //bind editTask to edit button
   editButton.onclick = editTask;
   //bind deleteTask to delete button

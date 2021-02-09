@@ -96,7 +96,7 @@ li > label {
 li >  input[type="text"] {
   width: 226px;
 }
-li > .delete:hover {
+li > .suprimer:hover {
   color: #CF2323;
 }
 

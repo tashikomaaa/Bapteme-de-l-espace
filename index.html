@@ -2,44 +2,45 @@
   <head>
     <title>Todo App</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">    
+    <link rel="stylesheet" href="index.css" type="text/css" media="screen" charset="utf-8">    
   </head>
   <body>
     <div class="container">
       <p>
-        <label for="new-task">Add Item</label>
+        <label for="new-task">Ajouter une tache</label>
         <input id="new-task" type="text">
-        <button>Add</button>
+        <button>Ajouter</button>
       </p>
       
       <h3>Todo</h3>
       <ul id="incomplete-tasks">
         <li>
           <input type="checkbox">
-          <label>Pay Bills</label>
+          <label>payer les factures</label>
           <input type="text">
           <button class="edit">Edit</button>
-          <button class="delete">Delete</button>
+          <button class="suprimer">suprimer</button>
         </li>
-        <li class="editMode">
+        <li>
           <input type="checkbox">
-          <label>Go Shopping</label>
+          <label>faire les courses</label>
           <input type="text" value="Go Shopping">
           <button class="edit">Edit</button>
-          <button class="delete">Delete</button>
+          <button class="suprimer">suprimer</button>
         </li>
       </ul>
       
-      <h3>Completed</h3>
+      <h3>Completées</h3>
       <ul id="completed-tasks">
         <li>
           <input type="checkbox" checked="">
-          <label>See the Doctor</label>
+          <label>Aller chez le doc</label>
           <input type="text">
           <button class="edit">Edit</button>
-          <button class="delete">Delete</button>
+          <button class="suprimer">suprimer</button>
         </li>
       </ul>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
