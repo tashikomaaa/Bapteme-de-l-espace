@@ -6,8 +6,6 @@ On va voir quelques les bases de la manipulation de DOM en javascript.
 
 Pour ce faire on va essayer de faire un Outils de TODOList.
 
-(je sais c'est pas super fun mais on à que 45mins)
-
 Pour ce faire on va avoir besoin d'un dossier `Todolist` avec la structure suivante
 ```
 Todolist -
