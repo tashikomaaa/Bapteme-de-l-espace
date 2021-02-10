@@ -11,6 +11,6 @@ C'est une chose que vous aller rencontrer souvent, on va chercher a verifier si 
 
   
 
-Comment savoir si un champ est vide ou nom ?
+Comment savoir si un champ est vide ou non ?
 
 Une fois fini on passe au [suivant](../exo4/exo4.md)
