@@ -13,6 +13,10 @@ Vous avez à votre disposition 5 exervices pour commencer à vous familiariser a
 - [Exercice 5- Fonction avec nombre indéterminé d'arguments](doc/exo5/exo5.md)
 
 
+### BONUS !
+
+- [TODOLIST- à faire si vous avez fini et que vous avez envie de vous challenger](doc/todolist/todolist.md)
+
 Et pour les plus courageux je vous ai rajouter un exercice un poil plus complexe, ou nous allon créer un outils pour une todolist.
 
 Alors, prêt ? [GO](doc/exo1/exo1.md)
