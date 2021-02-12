@@ -1,16 +1,14 @@
 # Exercice 3
 
-## Vous avez une page avec un formulaire et un champ. Écrivez un script qui va valider le formulaire. Si le champ est vide, un message d'erreur est affiché à côté du champ et le formulaire n'est pas envoyé. Si le champ contient des données, le formulaire peut être envoyé.
+## Objectif:
+Manipuler les boucles for et do..while.
 
- 
-Ok là on passe à du concret !
+## Énoncé 
+Ecrire un script qui permet d'afficher la table de multiplication d'un nombre entier n:
+La valeur de n sera demandée à l’utilisateur via une boite de dialogue.
+En cas de saisie d'un nombre non entier le script redemande l'utilisateur de saisir une nouvelle valeur.
+L'affichage de résultat doit être encadré par un tableau html.
+Utiliser les boucles imbriquées pour afficher l'ensemble des tables de multiplication pour n=1,2.....10.
 
-  
-
-C'est une chose que vous aller rencontrer souvent, on va chercher a verifier si les champs ne sont pas vide.
-
-  
-
-Comment savoir si un champ est vide ou non ?
 
 Une fois fini on passe au [suivant](../exo4/exo4.md)
